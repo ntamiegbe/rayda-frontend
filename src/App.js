@@ -1,4 +1,5 @@
 import Banner from "./components/Banner";
+import FeaturedItems from "./components/FeaturedItems";
 import Navbar from "./components/Navbar";
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
       <div className="max-w-[1358px] mx-auto">
         <Navbar />
         <Banner />
+        <FeaturedItems />
       </div>
     </main>
   )
