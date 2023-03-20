@@ -1,10 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
-    <h1>Hello</h1>
-  );
+    <main className="min-h-screen bg-[#FCFCFD]">
+      <div className="max-w-[1358px] mx-auto">
+        <Navbar />
+      </div>
+    </main>
+  )
 }
 
 export default App;
