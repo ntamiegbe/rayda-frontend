@@ -1,6 +1,10 @@
-
+import { useGetFeaturedItemsQuery } from '../features/api/apiSlice'
 
 const FeaturedItems = () => {
+    const { data, error, isLoading } = useGetFeaturedItemsQuery();
+
+    console.log(data)
+
     return (
         <div className='mx-10 border border-[#EAECF0] bg-white rounded-xl p-6 shadow-main my-8'>
             <div className="flex items-center justify-between border-b border-[#EAECF0] pb-6">
@@ -8,7 +12,7 @@ const FeaturedItems = () => {
                 <h1 className='border border-[#D0D5DD] py-2 px-[14px] rounded-lg cursor-pointer bg-white shadow-button font-semibold text-sm text-[#344054]'>View Auction</h1>
             </div>
             <div className="py-5 grid grid-cols-4 gap-2">
-                
+
             </div>
         </div>
     )
