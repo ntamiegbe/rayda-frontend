@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+Cloning the Rayda Frontend Repository on Your Local Machine
+This guide will walk you through the steps to clone the Rayda frontend repository from Github onto your local machine.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Prerequisites
+Before you begin, you should have the following:
 
-## Available Scripts
+Git installed on your local machine.
+A Github account.
+Steps
+Open your web browser and navigate to the Rayda frontend repository page: https://github.com/ntamiegbe/rayda-frontend
 
-In the project directory, you can run:
+On the repository page, click the Code button.
 
-### `npm start`
+Select the HTTPS option to clone the repository using HTTPS.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Click the clipboard icon to copy the repository URL.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Open your terminal or Git Bash on your local machine.
 
-### `npm test`
+Change the current working directory to the location where you want to clone the repository.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Use the git clone command followed by the repository URL you copied - git clone https://github.com/ntamiegbe/rayda-frontend.git
 
-### `npm run build`
+Press Enter to execute the command. Git will now clone the repository to your local machine.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Change the current working directory to the cloned repository.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Run npm install to Install the dependencies required for the React app.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Once the dependencies are installed, run npm start to start the development server.
 
-### `npm run eject`
+Your React app should now be running at http://localhost:3000.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Conclusion
+Congratulations, you have successfully cloned the Rayda frontend repository onto your local machine! You can now start making changes to the code and pushing them back to the repository on Github.
