@@ -20,7 +20,7 @@ const FeaturedItems = () => {
                 <h1 className='text-[#101828] text-lg font-semibold'>Featured Items</h1>
                 <h1 className='border border-[#D0D5DD] py-2 px-[14px] rounded-lg cursor-pointer bg-white shadow-button font-semibold text-sm text-[#344054]'>View Auction</h1>
             </div>
-            <div className="py-5 grid grid-cols-4 gap-2">
+            <div className="py-5 grid grid-cols-4 gap-3">
                 {/* Checking if FeaturedItems is an array before mapping */}
                 {FeaturedItems && Array.isArray(FeaturedItems.data) ? (
                     FeaturedItems.data.map(({ index, title, bid, image }) => (
