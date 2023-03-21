@@ -1,7 +1,16 @@
 import { useGetFeaturedItemsQuery } from '../features/api/apiSlice'
+import SingleItem from './SingleItem';
 
 const FeaturedItems = () => {
     const { data, error, isLoading } = useGetFeaturedItemsQuery();
+
+    if (isLoading) {
+        <span className="visually-hidden">Loading...</span>
+    }
+
+    if (error) {
+        return <div>Error: {error.message}</div>;
+    }
 
     console.log(data)
 
@@ -12,7 +21,9 @@ const FeaturedItems = () => {
                 <h1 className='border border-[#D0D5DD] py-2 px-[14px] rounded-lg cursor-pointer bg-white shadow-button font-semibold text-sm text-[#344054]'>View Auction</h1>
             </div>
             <div className="py-5 grid grid-cols-4 gap-2">
-
+                {data.map((item) => (
+                    <SingleItem key={item?.name} title={item?.title} bid={item?.bid} image={item?.image}/>
+                ))}
             </div>
         </div>
     )
