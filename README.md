@@ -1,7 +1,4 @@
-<html>
-<head>
-	<title>Cloning the Rayda Frontend Repository</title>
-</head>
+
 <body>
 	<h1>Cloning the Rayda Frontend Repository on Your Local Machine</h1>
   <h2>Prerequisites</h2>
@@ -29,4 +26,4 @@
 <h2>Conclusion</h2>
 <p>Congratulations, you have successfully cloned the Rayda frontend repository onto your local machine! You can now start making changes to the code and pushing them back to the repository on Github.</p>
 </body>
-</html>
+
