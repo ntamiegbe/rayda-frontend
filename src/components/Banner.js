@@ -5,10 +5,12 @@ import { FiThumbsUp } from 'react-icons/fi'
 const Banner = () => {
     return (
         // Custom box shadow(shadow-main) is defined in tailwind.config.js file
-        <section className='relative mx-10 border border-[#EAECF0] bg-white rounded-xl p-6 shadow-main'>
-            
-            <img src={banner} alt="Banner gradient" className='object-contain rounded-xl' />
-            <img src={logo} alt="Banner logo" className='absolute left-14 top-[12rem]' />
+        <section className='mx-10 border border-[#EAECF0] bg-white rounded-xl p-6 shadow-main'>
+
+            <div class="relative">
+                <img src={banner} alt="Banner gradient" class='object-contain rounded-xl' />
+                <img src={logo} alt="Banner logo" class='absolute left-10 top-[10.5rem]' />
+            </div>
 
             <div className='pl-[18rem] pt-4 flex items-center justify-between'>
                 <h1 className='text-[#101828] text-2xl font-semibold'>Starts in: 3 days : 2 hours : 24 minutes </h1>
