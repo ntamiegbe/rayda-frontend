@@ -6,7 +6,7 @@ const Banner = () => {
     return (
         // Custom box shadow(shadow-main) is defined in tailwind.config.js file
         <section className='relative mx-10 border border-[#EAECF0] bg-white rounded-xl p-6 shadow-main'>
-                
+            
             <img src={banner} alt="Banner gradient" className='object-contain rounded-xl' />
             <img src={logo} alt="Banner logo" className='absolute left-14 top-[12rem]' />
 
