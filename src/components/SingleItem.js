@@ -1,8 +1,11 @@
 import React from 'react'
 
-const SingleItem = () => {
+const SingleItem = ({title, bid, image}) => {
   return (
-    <div>SingleItem</div>
+    <div>
+        <h1>{title}</h1>
+        <h1>{bid}</h1>
+    </div>
   )
 }
 
